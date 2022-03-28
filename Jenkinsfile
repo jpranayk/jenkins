@@ -8,7 +8,7 @@ steps {
 }
 stage('build'){
 steps {
-mvn package
+mvn build
 }
 }
 }
